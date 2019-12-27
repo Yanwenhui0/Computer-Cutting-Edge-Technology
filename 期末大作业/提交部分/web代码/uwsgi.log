@@ -1,0 +1,1540 @@
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Dec 28 18:42:09 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 28 December 2018 10:00:38
+os: Linux-3.10.0-514.26.2.el7.x86_64 #1 SMP Tue Jul 4 15:04:05 UTC 2017
+nodename: iZwz918knl07yk6dv97iu3Z
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /data/wwwroot/home
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /data/wwwroot/home/
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7277
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8997 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.6 (default, Dec 28 2018, 17:51:50)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x298db70
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291680 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x298db70 pid: 30038 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 30038, cores: 1)
+spawned uWSGI worker 2 (pid: 30040, cores: 1)
+spawned uWSGI worker 3 (pid: 30041, cores: 1)
+spawned uWSGI worker 4 (pid: 30042, cores: 1)
+[pid: 30042|app: 0|req: 1/1] 180.160.55.107 () {44 vars in 760 bytes} [Fri Dec 28 10:44:46 2018] GET / => generated 149 bytes in 18 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 30042|app: 0|req: 2/2] 61.151.207.186 () {40 vars in 600 bytes} [Fri Dec 28 10:45:56 2018] GET / => generated 149 bytes in 3 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Dec 28 19:39:21 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 28 December 2018 10:00:38
+os: Linux-3.10.0-957.1.3.el7.x86_64 #1 SMP Thu Nov 29 14:49:43 UTC 2018
+nodename: izwz918knl07yk6dv97iu3z
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /data/wwwroot/home
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /data/wwwroot/home/
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7269
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8997 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.6 (default, Dec 28 2018, 17:51:50)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x262ab80
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291680 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x262ab80 pid: 3434 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 3434, cores: 1)
+spawned uWSGI worker 2 (pid: 3436, cores: 1)
+spawned uWSGI worker 3 (pid: 3437, cores: 1)
+spawned uWSGI worker 4 (pid: 3438, cores: 1)
+[pid: 3436|app: 0|req: 1/1] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 11:39:33 2018] GET / => generated 149 bytes in 34 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3438|app: 0|req: 1/2] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 11:39:34 2018] GET / => generated 149 bytes in 21 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 2/3] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 11:39:34 2018] GET / => generated 149 bytes in 3 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 3/4] 180.176.152.84 () {30 vars in 339 bytes} [Fri Dec 28 12:17:13 2018] GET / => generated 149 bytes in 1 msecs (HTTP/1.0 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 4/5] 5.189.174.82 () {34 vars in 393 bytes} [Fri Dec 28 13:09:43 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 5/6] 200.216.171.102 () {36 vars in 523 bytes} [Fri Dec 28 13:20:09 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 6/7] 42.112.42.240 () {30 vars in 338 bytes} [Fri Dec 28 13:36:19 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.0 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 7/8] 180.160.55.107 () {44 vars in 760 bytes} [Fri Dec 28 13:43:55 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 8/9] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 13:43:57 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Dec 28 21:45:22 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 28 December 2018 10:00:38
+os: Linux-3.10.0-957.1.3.el7.x86_64 #1 SMP Thu Nov 29 14:49:43 UTC 2018
+nodename: izwz918knl07yk6dv97iu3z
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /data/wwwroot/home
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /data/wwwroot/home/
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7269
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8997).
+bind(): Address already in use [core/socket.c line 769]
+[pid: 3436|app: 0|req: 9/10] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 13:45:27 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 10/11] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 13:45:28 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 11/12] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 13:46:00 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 12/13] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 13:46:00 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3434|app: 0|req: 1/14] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 13:46:01 2018] GET / => generated 12 bytes in 19 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 13/15] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 13:46:01 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 14/16] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 13:46:01 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3438|app: 0|req: 2/17] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 13:46:01 2018] GET / => generated 149 bytes in 3 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3437|app: 0|req: 1/18] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 13:46:02 2018] GET / => generated 12 bytes in 17 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 15/19] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 13:46:03 2018] GET / => generated 149 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 16/20] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 13:46:03 2018] GET / => generated 149 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3434|app: 0|req: 2/21] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 13:46:04 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3438|app: 0|req: 3/22] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 13:46:04 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3438|app: 0|req: 4/23] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 13:46:05 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 17/24] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 13:46:06 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3434|app: 0|req: 3/25] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 13:46:06 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 18/26] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 13:46:08 2018] GET / => generated 149 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 19/27] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 13:46:19 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3438|app: 0|req: 5/28] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 13:46:20 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 20/29] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 13:46:21 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3437|app: 0|req: 2/30] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 13:46:21 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3438|app: 0|req: 6/31] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 13:46:21 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 21/32] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 13:46:22 2018] GET / => generated 149 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3437|app: 0|req: 3/33] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 13:46:22 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3438|app: 0|req: 7/34] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 13:46:22 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 22/35] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 13:46:23 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3434|app: 0|req: 4/36] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 13:46:23 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Dec 28 21:54:45 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 28 December 2018 10:00:38
+os: Linux-3.10.0-957.1.3.el7.x86_64 #1 SMP Thu Nov 29 14:49:43 UTC 2018
+nodename: izwz918knl07yk6dv97iu3z
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /data/wwwroot/home
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /data/wwwroot/home/
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7269
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8997).
+bind(): Address already in use [core/socket.c line 769]
+[pid: 3436|app: 0|req: 23/37] 180.160.55.107 () {44 vars in 760 bytes} [Fri Dec 28 13:55:02 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 24/38] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 13:55:03 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 25/39] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 13:55:04 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3434|app: 0|req: 5/40] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 13:55:04 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3438|app: 0|req: 8/41] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 13:55:05 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 26/42] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 13:55:06 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3434|app: 0|req: 6/43] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 13:55:06 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3437|app: 0|req: 4/44] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 13:55:07 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 27/45] 80.82.70.187 () {36 vars in 490 bytes} [Fri Dec 28 13:59:11 2018] GET /cache/global/img/gs.gif => generated 97 bytes in 7 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 28/46] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 14:00:29 2018] GET / => generated 149 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3437|app: 0|req: 5/47] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 14:00:29 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3438|app: 0|req: 9/48] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 14:00:30 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3434|app: 0|req: 7/49] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 14:00:30 2018] GET / => generated 12 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 29/50] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 14:00:30 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3437|app: 0|req: 6/51] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 14:00:31 2018] GET / => generated 12 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 30/52] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 14:00:31 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3434|app: 0|req: 8/53] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 14:00:31 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3437|app: 0|req: 7/54] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 14:00:31 2018] GET / => generated 12 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3438|app: 0|req: 10/55] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 14:00:31 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 31/56] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 14:00:31 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3438|app: 0|req: 11/57] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 14:00:32 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3437|app: 0|req: 8/58] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 14:00:32 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 32/59] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 14:00:32 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3437|app: 0|req: 9/60] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 14:00:32 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3438|app: 0|req: 12/61] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 14:00:32 2018] GET / => generated 149 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3434|app: 0|req: 9/62] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 14:00:32 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 33/63] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 14:00:32 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3434|app: 0|req: 10/64] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 14:00:33 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3438|app: 0|req: 13/65] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 14:00:33 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3437|app: 0|req: 10/66] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 14:00:33 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 34/67] 180.160.55.107 () {46 vars in 735 bytes} [Fri Dec 28 14:00:47 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 35/68] 180.160.55.107 () {48 vars in 766 bytes} [Fri Dec 28 14:00:48 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3437|app: 0|req: 11/69] 180.160.55.107 () {48 vars in 766 bytes} [Fri Dec 28 14:00:49 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3438|app: 0|req: 14/70] 180.160.55.107 () {48 vars in 766 bytes} [Fri Dec 28 14:00:49 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3434|app: 0|req: 11/71] 180.160.55.107 () {48 vars in 766 bytes} [Fri Dec 28 14:00:50 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 36/72] 180.160.55.107 () {48 vars in 766 bytes} [Fri Dec 28 14:00:50 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3434|app: 0|req: 12/73] 180.160.55.107 () {48 vars in 766 bytes} [Fri Dec 28 14:00:51 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3438|app: 0|req: 15/74] 180.160.55.107 () {48 vars in 766 bytes} [Fri Dec 28 14:00:51 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3437|app: 0|req: 12/75] 180.160.55.107 () {48 vars in 766 bytes} [Fri Dec 28 14:00:51 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 37/76] 180.160.55.107 () {48 vars in 766 bytes} [Fri Dec 28 14:00:52 2018] GET / => generated 149 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Dec 28 22:01:21 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 28 December 2018 10:00:38
+os: Linux-3.10.0-957.1.3.el7.x86_64 #1 SMP Thu Nov 29 14:49:43 UTC 2018
+nodename: izwz918knl07yk6dv97iu3z
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /data/wwwroot/home
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /data/wwwroot/home/
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7269
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8997).
+bind(): Address already in use [core/socket.c line 769]
+[pid: 3436|app: 0|req: 38/77] 180.160.55.107 () {46 vars in 784 bytes} [Fri Dec 28 14:02:06 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 39/78] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 14:02:08 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3437|app: 0|req: 13/79] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 14:02:08 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 40/80] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 14:02:08 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3437|app: 0|req: 14/81] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 14:02:08 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3434|app: 0|req: 13/82] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 14:02:09 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3438|app: 0|req: 16/83] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 14:02:09 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 41/84] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 14:02:09 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3438|app: 0|req: 17/85] 180.160.55.107 () {46 vars in 791 bytes} [Fri Dec 28 14:02:09 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Dec 28 22:33:49 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 28 December 2018 10:00:38
+os: Linux-3.10.0-957.1.3.el7.x86_64 #1 SMP Thu Nov 29 14:49:43 UTC 2018
+nodename: izwz918knl07yk6dv97iu3z
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /data/wwwroot/home
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /data/wwwroot/home/
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7269
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8997).
+bind(): Address already in use [core/socket.c line 769]
+[pid: 3436|app: 0|req: 42/86] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:34:19 2018] GET / => generated 149 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 43/87] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:34:20 2018] GET / => generated 149 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 44/88] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:34:21 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3437|app: 0|req: 15/89] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:34:21 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3434|app: 0|req: 14/90] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:34:21 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3438|app: 0|req: 18/91] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:34:21 2018] GET / => generated 149 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 45/92] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:34:22 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3437|app: 0|req: 16/93] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:34:22 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 46/94] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:34:23 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3437|app: 0|req: 17/95] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:34:23 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3434|app: 0|req: 15/96] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:34:23 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 47/97] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:34:23 2018] GET / => generated 149 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 48/98] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:34:24 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 49/99] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:34:25 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3434|app: 0|req: 16/100] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:34:25 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 50/101] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:34:26 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 51/102] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:34:26 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 52/103] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:34:28 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3434|app: 0|req: 17/104] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:34:28 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 53/105] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:34:30 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3437|app: 0|req: 18/106] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:34:30 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3434|app: 0|req: 18/107] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:34:30 2018] GET / => generated 12 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3438|app: 0|req: 19/108] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:34:30 2018] GET / => generated 149 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 54/109] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:34:30 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3437|app: 0|req: 19/110] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:34:31 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3434|app: 0|req: 19/111] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:34:31 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3438|app: 0|req: 20/112] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:34:31 2018] GET / => generated 149 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 55/113] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:34:31 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3438|app: 0|req: 21/114] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:34:31 2018] GET / => generated 149 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3437|app: 0|req: 20/115] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:34:31 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3434|app: 0|req: 20/116] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:34:32 2018] GET / => generated 12 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 56/117] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:34:32 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3438|app: 0|req: 22/118] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:34:32 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 57/119] 223.104.212.86 () {46 vars in 735 bytes} [Fri Dec 28 14:35:11 2018] GET / => generated 149 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 58/120] 223.104.212.86 () {48 vars in 766 bytes} [Fri Dec 28 14:35:14 2018] GET / => generated 149 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 59/121] 223.104.212.86 () {48 vars in 766 bytes} [Fri Dec 28 14:35:14 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 60/122] 223.104.212.86 () {48 vars in 766 bytes} [Fri Dec 28 14:35:15 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 61/123] 223.104.212.86 () {48 vars in 766 bytes} [Fri Dec 28 14:35:16 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 62/124] 223.104.212.86 () {48 vars in 766 bytes} [Fri Dec 28 14:35:17 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Dec 28 22:36:52 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 28 December 2018 10:00:38
+os: Linux-3.10.0-957.1.3.el7.x86_64 #1 SMP Thu Nov 29 14:49:43 UTC 2018
+nodename: izwz918knl07yk6dv97iu3z
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /data/wwwroot/home
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /data/wwwroot/home/
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7269
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8997).
+bind(): Address already in use [core/socket.c line 769]
+[pid: 3436|app: 0|req: 63/125] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:36:58 2018] GET / => generated 149 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3434|app: 0|req: 21/126] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:36:59 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 64/127] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:37:00 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 65/128] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:37:01 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3437|app: 0|req: 21/129] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:37:01 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3438|app: 0|req: 23/130] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:37:01 2018] GET / => generated 149 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3434|app: 0|req: 22/131] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:37:01 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 66/132] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:37:02 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3437|app: 0|req: 22/133] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:37:02 2018] GET / => generated 12 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 67/134] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:38:24 2018] GET / => generated 149 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 68/135] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:38:26 2018] GET / => generated 149 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 69/136] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:38:27 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 70/137] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:38:27 2018] GET / => generated 149 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3434|app: 0|req: 23/138] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:38:28 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 71/139] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:38:28 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3437|app: 0|req: 23/140] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:38:29 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3434|app: 0|req: 24/141] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:38:29 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 72/142] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:38:29 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3434|app: 0|req: 25/143] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:38:30 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3437|app: 0|req: 24/144] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:38:30 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 73/145] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:38:30 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3437|app: 0|req: 25/146] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:38:31 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Dec 28 22:44:00 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 28 December 2018 10:00:38
+os: Linux-3.10.0-957.1.3.el7.x86_64 #1 SMP Thu Nov 29 14:49:43 UTC 2018
+nodename: izwz918knl07yk6dv97iu3z
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /data/wwwroot/home
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /data/wwwroot/home/
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7269
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8997).
+bind(): Address already in use [core/socket.c line 769]
+[pid: 3436|app: 0|req: 74/147] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:44:20 2018] GET / => generated 149 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3437|app: 0|req: 26/148] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:44:21 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 75/149] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:44:21 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3437|app: 0|req: 27/150] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:44:22 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3434|app: 0|req: 26/151] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:44:22 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 76/152] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:44:22 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3437|app: 0|req: 28/153] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:44:22 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3438|app: 0|req: 24/154] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:44:22 2018] GET / => generated 149 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3434|app: 0|req: 27/155] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:44:23 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 77/156] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:44:23 2018] GET / => generated 149 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3437|app: 0|req: 29/157] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:44:24 2018] GET / => generated 12 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3434|app: 0|req: 28/158] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:44:24 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3438|app: 0|req: 25/159] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:44:24 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 78/160] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:44:24 2018] GET / => generated 149 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3437|app: 0|req: 30/161] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:44:24 2018] GET / => generated 12 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3434|app: 0|req: 29/162] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:44:25 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3438|app: 0|req: 26/163] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:44:25 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3438|app: 0|req: 27/164] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:44:25 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3437|app: 0|req: 31/165] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:44:25 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3434|app: 0|req: 30/166] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:44:25 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 79/167] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:44:25 2018] GET / => generated 149 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3438|app: 0|req: 28/168] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:44:26 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3437|app: 0|req: 32/169] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:44:26 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3434|app: 0|req: 31/170] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:44:26 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 80/171] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:44:26 2018] GET / => generated 149 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 81/172] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:44:33 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3438|app: 0|req: 29/173] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:44:33 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3437|app: 0|req: 33/174] 223.104.212.86 () {46 vars in 791 bytes} [Fri Dec 28 14:44:34 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 82/175] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 14:47:51 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 83/176] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 14:47:53 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 84/177] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 14:47:55 2018] GET / => generated 149 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 85/178] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 14:47:56 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 86/179] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 14:47:58 2018] GET / => generated 149 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 87/180] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 14:47:59 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3437|app: 0|req: 34/181] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 14:47:59 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 88/182] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 14:51:21 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 89/183] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 14:51:22 2018] GET / => generated 149 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3438|app: 0|req: 30/184] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 14:51:22 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3434|app: 0|req: 32/185] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 14:51:23 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3437|app: 0|req: 35/186] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 14:51:23 2018] GET / => generated 12 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 90/187] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 14:51:23 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3438|app: 0|req: 31/188] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 14:51:23 2018] GET / => generated 149 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 91/189] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 14:51:25 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 92/190] 180.160.70.222 () {44 vars in 760 bytes} [Fri Dec 28 14:51:41 2018] GET / => generated 149 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 93/191] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 14:51:43 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3434|app: 0|req: 33/192] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 14:51:43 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 94/193] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 14:51:43 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3434|app: 0|req: 34/194] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 14:51:44 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3438|app: 0|req: 32/195] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 14:51:44 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3437|app: 0|req: 36/196] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 14:51:44 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 95/197] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 14:51:45 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3434|app: 0|req: 35/198] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 14:51:45 2018] GET / => generated 12 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3437|app: 0|req: 37/199] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 14:51:45 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3438|app: 0|req: 33/200] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 14:51:45 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 96/201] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 14:51:45 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3438|app: 0|req: 34/202] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 14:51:45 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3434|app: 0|req: 36/203] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 14:51:46 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 97/204] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 14:55:56 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3437|app: 0|req: 38/205] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 14:55:57 2018] GET / => generated 12 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3434|app: 0|req: 37/206] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 14:55:57 2018] GET / => generated 12 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 98/207] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 14:55:57 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3434|app: 0|req: 38/208] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 14:55:57 2018] GET / => generated 12 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3438|app: 0|req: 35/209] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 14:55:58 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3437|app: 0|req: 39/210] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 14:55:58 2018] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 99/211] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 14:55:58 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3438|app: 0|req: 36/212] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 14:55:58 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3436|app: 0|req: 100/213] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 14:55:58 2018] GET / => generated 149 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Dec 28 23:00:33 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 28 December 2018 10:00:38
+os: Linux-3.10.0-957.1.3.el7.x86_64 #1 SMP Thu Nov 29 14:49:43 UTC 2018
+nodename: izwz918knl07yk6dv97iu3z
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /data/wwwroot/home
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /data/wwwroot/home/
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7269
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8997 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.6 (default, Dec 28 2018, 17:51:50)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x22a1b70
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291680 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x22a1b70 pid: 3438 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 3438, cores: 1)
+spawned uWSGI worker 2 (pid: 3440, cores: 1)
+spawned uWSGI worker 3 (pid: 3441, cores: 1)
+spawned uWSGI worker 4 (pid: 3442, cores: 1)
+smart_open library not found; falling back to local-filesystem-only
+>> Synonyms load wordseg dict [/usr/local/python3/lib/python3.6/site-packages/synonyms/data/vocab.txt] ... 
+Building prefix dict from /usr/local/python3/lib/python3.6/site-packages/synonyms/data/vocab.txt ...
+WARNING: Logging before flag parsing goes to stderr.
+I1228 15:01:02.009120 140299709896768 __init__.py:111] Building prefix dict from /usr/local/python3/lib/python3.6/site-packages/synonyms/data/vocab.txt ...
+Loading model from cache /tmp/jieba.u4fe750d5715ea29d6a389e9ab59bf0af.cache
+I1228 15:01:02.009844 140299709896768 __init__.py:131] Loading model from cache /tmp/jieba.u4fe750d5715ea29d6a389e9ab59bf0af.cache
+Loading model cost 1.983 seconds.
+I1228 15:01:03.992162 140299709896768 __init__.py:163] Loading model cost 1.983 seconds.
+Prefix dict has been built succesfully.
+I1228 15:01:03.992424 140299709896768 __init__.py:164] Prefix dict has been built succesfully.
+>> Synonyms on loading stopwords [/usr/local/python3/lib/python3.6/site-packages/synonyms/data/stopwords.txt] ...
+>> Synonyms on loading vectors [/usr/local/python3/lib/python3.6/site-packages/synonyms/data/words.vector] ...
+我醒了！
+你可以用这些小工具哦：
+1.@百科 查询名词
+2.@天气 地名
+3.@日期
+4.@笑话
+5.@新闻头条
+6.@微信精选
+7.@邮编查询 邮编
+8.@繁简火星文切换 句子
+9.@新华字典 字
+10.@成语词典 成语
+11.@QQ号码测吉凶 QQ号
+12.help
+要按格式来哦，不然我会当做闲聊的啦
+[pid: 3442|app: 0|req: 1/1] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 15:01:00 2018] GET / => generated 16 bytes in 9145 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3442|app: 0|req: 2/2] 117.132.183.17 () {44 vars in 664 bytes} [Fri Dec 28 15:13:09 2018] GET / => generated 16 bytes in 29 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Dec 28 23:16:05 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 28 December 2018 10:00:38
+os: Linux-3.10.0-957.1.3.el7.x86_64 #1 SMP Thu Nov 29 14:49:43 UTC 2018
+nodename: izwz918knl07yk6dv97iu3z
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /data/wwwroot/home
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /data/wwwroot/home/
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7269
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8997).
+bind(): Address already in use [core/socket.c line 769]
+W1228 15:16:30.359721 140299709896768 log.py:228] Forbidden (CSRF cookie not set.): /
+[pid: 3442|app: 0|req: 3/3] 180.160.70.222 () {42 vars in 602 bytes} [Fri Dec 28 15:16:30 2018] POST / => generated 1386 bytes in 7 msecs (HTTP/1.1 403) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 3442|app: 0|req: 4/4] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 15:17:47 2018] GET / => generated 16 bytes in 30 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+smart_open library not found; falling back to local-filesystem-only
+>> Synonyms load wordseg dict [/usr/local/python3/lib/python3.6/site-packages/synonyms/data/vocab.txt] ... 
+Building prefix dict from /usr/local/python3/lib/python3.6/site-packages/synonyms/data/vocab.txt ...
+WARNING: Logging before flag parsing goes to stderr.
+I1228 15:17:49.660408 140299709896768 __init__.py:111] Building prefix dict from /usr/local/python3/lib/python3.6/site-packages/synonyms/data/vocab.txt ...
+Loading model from cache /tmp/jieba.u4fe750d5715ea29d6a389e9ab59bf0af.cache
+I1228 15:17:49.661135 140299709896768 __init__.py:131] Loading model from cache /tmp/jieba.u4fe750d5715ea29d6a389e9ab59bf0af.cache
+Loading model cost 1.929 seconds.
+I1228 15:17:51.589550 140299709896768 __init__.py:163] Loading model cost 1.929 seconds.
+Prefix dict has been built succesfully.
+I1228 15:17:51.589788 140299709896768 __init__.py:164] Prefix dict has been built succesfully.
+W1228 15:17:52.192229 140299709896768 log.py:228] Forbidden (CSRF cookie not set.): /
+[pid: 3442|app: 0|req: 5/5] 180.160.70.222 () {42 vars in 602 bytes} [Fri Dec 28 15:17:52 2018] POST / => generated 1386 bytes in 2 msecs (HTTP/1.1 403) 3 headers in 102 bytes (1 switches on core 0)
+>> Synonyms on loading stopwords [/usr/local/python3/lib/python3.6/site-packages/synonyms/data/stopwords.txt] ...
+>> Synonyms on loading vectors [/usr/local/python3/lib/python3.6/site-packages/synonyms/data/words.vector] ...
+我醒了！
+你可以用这些小工具哦：
+1.@百科 查询名词
+2.@天气 地名
+3.@日期
+4.@笑话
+5.@新闻头条
+6.@微信精选
+7.@邮编查询 邮编
+8.@繁简火星文切换 句子
+9.@新华字典 字
+10.@成语词典 成语
+11.@QQ号码测吉凶 QQ号
+12.help
+要按格式来哦，不然我会当做闲聊的啦
+[pid: 3441|app: 0|req: 1/6] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 15:17:47 2018] GET / => generated 37 bytes in 9364 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+W1228 15:18:08.390163 140299709896768 log.py:228] Forbidden (CSRF cookie not set.): /
+[pid: 3442|app: 0|req: 6/7] 180.160.70.222 () {42 vars in 602 bytes} [Fri Dec 28 15:18:08 2018] POST / => generated 1386 bytes in 2 msecs (HTTP/1.1 403) 3 headers in 102 bytes (1 switches on core 0)
+W1228 15:18:18.745422 140299709896768 log.py:228] Forbidden (CSRF cookie not set.): /
+[pid: 3442|app: 0|req: 7/8] 180.160.70.222 () {42 vars in 602 bytes} [Fri Dec 28 15:18:18 2018] POST / => generated 1386 bytes in 2 msecs (HTTP/1.1 403) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 3442|app: 0|req: 8/9] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 15:18:39 2018] GET / => generated 16 bytes in 30 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3441|app: 0|req: 2/10] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 15:18:39 2018] GET / => generated 37 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+W1228 15:20:41.265139 140299709896768 log.py:228] Forbidden (CSRF cookie not set.): /
+[pid: 3442|app: 0|req: 9/11] 180.160.70.222 () {42 vars in 600 bytes} [Fri Dec 28 15:20:41 2018] POST / => generated 1386 bytes in 2 msecs (HTTP/1.1 403) 3 headers in 102 bytes (1 switches on core 0)
+W1228 15:21:12.966963 140299709896768 log.py:228] Forbidden (CSRF cookie not set.): /
+[pid: 3442|app: 0|req: 10/12] 180.160.70.222 () {42 vars in 668 bytes} [Fri Dec 28 15:21:12 2018] POST / => generated 1386 bytes in 3 msecs (HTTP/1.1 403) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 3442|app: 0|req: 11/13] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 15:21:49 2018] GET / => generated 16 bytes in 30 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3441|app: 0|req: 3/14] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 15:21:51 2018] GET / => generated 37 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+W1228 15:26:40.801872 140299709896768 log.py:228] Forbidden (CSRF cookie not set.): /
+[pid: 3442|app: 0|req: 12/15] 180.160.70.222 () {42 vars in 602 bytes} [Fri Dec 28 15:26:40 2018] POST / => generated 1386 bytes in 2 msecs (HTTP/1.1 403) 3 headers in 102 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Dec 28 23:34:14 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 28 December 2018 10:00:38
+os: Linux-3.10.0-957.1.3.el7.x86_64 #1 SMP Thu Nov 29 14:49:43 UTC 2018
+nodename: izwz918knl07yk6dv97iu3z
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /data/wwwroot/home
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /data/wwwroot/home/
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7269
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8997).
+bind(): Address already in use [core/socket.c line 769]
+[pid: 3441|app: 0|req: 4/16] 180.160.70.222 () {44 vars in 801 bytes} [Fri Dec 28 15:34:44 2018] GET /?q=%E4%BD%A0%E5%A5%BD => generated 58 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3441|app: 0|req: 5/17] 180.160.70.222 () {44 vars in 775 bytes} [Fri Dec 28 15:34:51 2018] GET /?q=hello => generated 45 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3441|app: 0|req: 6/18] 180.160.70.222 () {46 vars in 806 bytes} [Fri Dec 28 15:34:54 2018] GET /?q=hello => generated 45 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3441|app: 0|req: 7/19] 180.160.70.222 () {46 vars in 806 bytes} [Fri Dec 28 15:34:56 2018] GET /?q=hello => generated 45 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3441|app: 0|req: 8/20] 180.160.70.222 () {46 vars in 806 bytes} [Fri Dec 28 15:34:58 2018] GET /?q=hello => generated 45 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3441|app: 0|req: 9/21] 180.160.70.222 () {46 vars in 806 bytes} [Fri Dec 28 15:34:59 2018] GET /?q=hello => generated 45 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+smart_open library not found; falling back to local-filesystem-only
+>> Synonyms load wordseg dict [/usr/local/python3/lib/python3.6/site-packages/synonyms/data/vocab.txt] ... 
+Building prefix dict from /usr/local/python3/lib/python3.6/site-packages/synonyms/data/vocab.txt ...
+WARNING: Logging before flag parsing goes to stderr.
+I1228 15:35:02.334791 140299709896768 __init__.py:111] Building prefix dict from /usr/local/python3/lib/python3.6/site-packages/synonyms/data/vocab.txt ...
+Loading model from cache /tmp/jieba.u4fe750d5715ea29d6a389e9ab59bf0af.cache
+I1228 15:35:02.335523 140299709896768 __init__.py:131] Loading model from cache /tmp/jieba.u4fe750d5715ea29d6a389e9ab59bf0af.cache
+Loading model cost 2.007 seconds.
+I1228 15:35:04.342430 140299709896768 __init__.py:163] Loading model cost 2.007 seconds.
+Prefix dict has been built succesfully.
+I1228 15:35:04.342696 140299709896768 __init__.py:164] Prefix dict has been built succesfully.
+>> Synonyms on loading stopwords [/usr/local/python3/lib/python3.6/site-packages/synonyms/data/stopwords.txt] ...
+>> Synonyms on loading vectors [/usr/local/python3/lib/python3.6/site-packages/synonyms/data/words.vector] ...
+我醒了！
+你可以用这些小工具哦：
+1.@百科 查询名词
+2.@天气 地名
+3.@日期
+4.@笑话
+5.@新闻头条
+6.@微信精选
+7.@邮编查询 邮编
+8.@繁简火星文切换 句子
+9.@新华字典 字
+10.@成语词典 成语
+11.@QQ号码测吉凶 QQ号
+12.help
+要按格式来哦，不然我会当做闲聊的啦
+[pid: 3438|app: 0|req: 1/22] 180.160.70.222 () {46 vars in 806 bytes} [Fri Dec 28 15:34:59 2018] GET /?q=hello => generated 10 bytes in 10454 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3441|app: 0|req: 10/23] 180.160.70.222 () {46 vars in 806 bytes} [Fri Dec 28 15:35:17 2018] GET /?q=hello => generated 45 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3441|app: 0|req: 11/24] 180.160.70.222 () {46 vars in 806 bytes} [Fri Dec 28 15:35:19 2018] GET /?q=hello => generated 45 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3438|app: 0|req: 2/25] 180.160.70.222 () {46 vars in 806 bytes} [Fri Dec 28 15:35:19 2018] GET /?q=hello => generated 10 bytes in 274 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3441|app: 0|req: 12/26] 180.160.70.222 () {46 vars in 806 bytes} [Fri Dec 28 15:35:19 2018] GET /?q=hello => generated 45 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+smart_open library not found; falling back to local-filesystem-only
+>> Synonyms load wordseg dict [/usr/local/python3/lib/python3.6/site-packages/synonyms/data/vocab.txt] ... 
+Building prefix dict from /usr/local/python3/lib/python3.6/site-packages/synonyms/data/vocab.txt ...
+WARNING: Logging before flag parsing goes to stderr.
+I1228 15:35:21.898634 140299709896768 __init__.py:111] Building prefix dict from /usr/local/python3/lib/python3.6/site-packages/synonyms/data/vocab.txt ...
+Loading model from cache /tmp/jieba.u4fe750d5715ea29d6a389e9ab59bf0af.cache
+I1228 15:35:21.899424 140299709896768 __init__.py:131] Loading model from cache /tmp/jieba.u4fe750d5715ea29d6a389e9ab59bf0af.cache
+Loading model cost 2.059 seconds.
+I1228 15:35:23.958431 140299709896768 __init__.py:163] Loading model cost 2.059 seconds.
+Prefix dict has been built succesfully.
+I1228 15:35:23.958700 140299709896768 __init__.py:164] Prefix dict has been built succesfully.
+>> Synonyms on loading stopwords [/usr/local/python3/lib/python3.6/site-packages/synonyms/data/stopwords.txt] ...
+>> Synonyms on loading vectors [/usr/local/python3/lib/python3.6/site-packages/synonyms/data/words.vector] ...
+我醒了！
+你可以用这些小工具哦：
+1.@百科 查询名词
+2.@天气 地名
+3.@日期
+4.@笑话
+5.@新闻头条
+6.@微信精选
+7.@邮编查询 邮编
+8.@繁简火星文切换 句子
+9.@新华字典 字
+10.@成语词典 成语
+11.@QQ号码测吉凶 QQ号
+12.help
+要按格式来哦，不然我会当做闲聊的啦
+[pid: 3440|app: 0|req: 1/27] 180.160.70.222 () {46 vars in 806 bytes} [Fri Dec 28 15:35:20 2018] GET /?q=hello => generated 10 bytes in 11934 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+E1228 15:37:05.651846 140299709896768 log.py:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/utils/datastructures.py", line 77, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'q'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./mybot/views.py", line 21, in index
+    content['answer'] = myBot.ask(request.GET['q'])
+  File "/usr/local/python3/lib/python3.6/site-packages/django/utils/datastructures.py", line 79, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'q'
+[pid: 3440|app: 0|req: 2/28] 180.160.70.222 () {38 vars in 513 bytes} [Fri Dec 28 15:37:05 2018] GET /?%E5%93%88%E5%93%88%E5%93%88 => generated 27 bytes in 52 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+E1228 15:37:35.635926 140299709896768 log.py:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/utils/datastructures.py", line 77, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'q'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./mybot/views.py", line 21, in index
+    content['answer'] = myBot.ask(request.GET['q'])
+  File "/usr/local/python3/lib/python3.6/site-packages/django/utils/datastructures.py", line 79, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'q'
+[pid: 3440|app: 0|req: 3/29] 180.160.70.222 () {44 vars in 760 bytes} [Fri Dec 28 15:37:35 2018] GET / => generated 27 bytes in 12 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+E1228 15:39:35.709671 140299709896768 log.py:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/utils/datastructures.py", line 77, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'q'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./mybot/views.py", line 21, in index
+    if 'q' in request.GET:
+  File "/usr/local/python3/lib/python3.6/site-packages/django/utils/datastructures.py", line 79, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'q'
+[pid: 3440|app: 0|req: 4/30] 196.52.43.86 () {34 vars in 433 bytes} [Fri Dec 28 15:39:35 2018] GET / => generated 27 bytes in 15 msecs (HTTP/1.0 500) 4 headers in 126 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Dec 28 23:39:43 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 28 December 2018 10:00:38
+os: Linux-3.10.0-957.1.3.el7.x86_64 #1 SMP Thu Nov 29 14:49:43 UTC 2018
+nodename: izwz918knl07yk6dv97iu3z
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /data/wwwroot/home
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /data/wwwroot/home/
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7269
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8997).
+bind(): Address already in use [core/socket.c line 769]
+E1228 15:40:00.262581 140299709896768 log.py:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/utils/datastructures.py", line 77, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'q'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./mybot/views.py", line 21, in index
+    if 'q' in request.GET:
+  File "/usr/local/python3/lib/python3.6/site-packages/django/utils/datastructures.py", line 79, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'q'
+[pid: 3440|app: 0|req: 5/31] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 15:40:00 2018] GET / => generated 27 bytes in 16 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+E1228 15:40:00.925074 140299709896768 log.py:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/utils/datastructures.py", line 77, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'q'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./mybot/views.py", line 21, in index
+    if 'q' in request.GET:
+  File "/usr/local/python3/lib/python3.6/site-packages/django/utils/datastructures.py", line 79, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'q'
+[pid: 3440|app: 0|req: 6/32] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 15:40:00 2018] GET / => generated 27 bytes in 15 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+E1228 15:40:01.811254 140299709896768 log.py:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/utils/datastructures.py", line 77, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'q'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./mybot/views.py", line 21, in index
+    if 'q' in request.GET:
+  File "/usr/local/python3/lib/python3.6/site-packages/django/utils/datastructures.py", line 79, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'q'
+[pid: 3440|app: 0|req: 7/33] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 15:40:01 2018] GET / => generated 27 bytes in 15 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+E1228 15:40:02.133942 140299709896768 log.py:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/utils/datastructures.py", line 77, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'q'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./mybot/views.py", line 21, in index
+    if 'q' in request.GET:
+  File "/usr/local/python3/lib/python3.6/site-packages/django/utils/datastructures.py", line 79, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'q'
+[pid: 3438|app: 0|req: 3/34] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 15:40:02 2018] GET / => generated 27 bytes in 23 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+E1228 15:40:02.291446 140299709896768 log.py:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/utils/datastructures.py", line 77, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'q'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./mybot/views.py", line 21, in index
+    if 'q' in request.GET:
+  File "/usr/local/python3/lib/python3.6/site-packages/django/utils/datastructures.py", line 79, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'q'
+[pid: 3440|app: 0|req: 8/35] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 15:40:02 2018] GET / => generated 27 bytes in 16 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+E1228 15:40:02.451977 140299709896768 log.py:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/utils/datastructures.py", line 77, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'q'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./mybot/views.py", line 21, in index
+    if 'q' in request.GET:
+  File "/usr/local/python3/lib/python3.6/site-packages/django/utils/datastructures.py", line 79, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'q'
+[pid: 3438|app: 0|req: 4/36] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 15:40:02 2018] GET / => generated 27 bytes in 16 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+E1228 15:40:05.667533 140299709896768 log.py:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/utils/datastructures.py", line 77, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'q'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./mybot/views.py", line 21, in index
+    if 'q' in request.GET:
+  File "/usr/local/python3/lib/python3.6/site-packages/django/utils/datastructures.py", line 79, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'q'
+[pid: 3440|app: 0|req: 9/37] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 15:40:05 2018] GET / => generated 27 bytes in 16 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+E1228 15:40:05.820114 140299709896768 log.py:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/utils/datastructures.py", line 77, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'q'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./mybot/views.py", line 21, in index
+    if 'q' in request.GET:
+  File "/usr/local/python3/lib/python3.6/site-packages/django/utils/datastructures.py", line 79, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'q'
+[pid: 3438|app: 0|req: 5/38] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 15:40:05 2018] GET / => generated 27 bytes in 12 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+E1228 15:40:05.970676 140299709896768 log.py:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/utils/datastructures.py", line 77, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'q'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./mybot/views.py", line 21, in index
+    if 'q' in request.GET:
+  File "/usr/local/python3/lib/python3.6/site-packages/django/utils/datastructures.py", line 79, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'q'
+[pid: 3440|app: 0|req: 10/39] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 15:40:05 2018] GET / => generated 27 bytes in 16 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+E1228 15:40:06.107857 140299709896768 log.py:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/utils/datastructures.py", line 77, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'q'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./mybot/views.py", line 21, in index
+    if 'q' in request.GET:
+  File "/usr/local/python3/lib/python3.6/site-packages/django/utils/datastructures.py", line 79, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'q'
+[pid: 3438|app: 0|req: 6/40] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 15:40:06 2018] GET / => generated 27 bytes in 15 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+E1228 15:40:06.613148 140299709896768 log.py:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/utils/datastructures.py", line 77, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'q'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./mybot/views.py", line 21, in index
+    if 'q' in request.GET:
+  File "/usr/local/python3/lib/python3.6/site-packages/django/utils/datastructures.py", line 79, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'q'
+[pid: 3440|app: 0|req: 11/41] 180.160.70.222 () {46 vars in 791 bytes} [Fri Dec 28 15:40:06 2018] GET / => generated 27 bytes in 15 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+E1228 15:40:07.246035 140299709896768 log.py:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/utils/datastructures.py", line 77, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'q'
+
+During handling*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Dec 28 23:42:16 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 28 December 2018 10:00:38
+os: Linux-3.10.0-957.1.3.el7.x86_64 #1 SMP Thu Nov 29 14:49:43 UTC 2018
+nodename: izwz918knl07yk6dv97iu3z
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /data/wwwroot/home
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /data/wwwroot/home/
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7269
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8997 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.6 (default, Dec 28 2018, 17:51:50)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x18a5b70
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291680 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x18a5b70 pid: 3399 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 3399, cores: 1)
+spawned uWSGI worker 2 (pid: 3401, cores: 1)
+spawned uWSGI worker 3 (pid: 3402, cores: 1)
+spawned uWSGI worker 4 (pid: 3403, cores: 1)
+smart_open library not found; falling back to local-filesystem-only
+>> Synonyms load wordseg dict [/usr/local/python3/lib/python3.6/site-packages/synonyms/data/vocab.txt] ... 
+Building prefix dict from /usr/local/python3/lib/python3.6/site-packages/synonyms/data/vocab.txt ...
+WARNING: Logging before flag parsing goes to stderr.
+I1228 15:43:02.647607 139768604694592 __init__.py:111] Building prefix dict from /usr/local/python3/lib/python3.6/site-packages/synonyms/data/vocab.txt ...
+Loading model from cache /tmp/jieba.u4fe750d5715ea29d6a389e9ab59bf0af.cache
+I1228 15:43:02.648329 139768604694592 __init__.py:131] Loading model from cache /tmp/jieba.u4fe750d5715ea29d6a389e9ab59bf0af.cache
+Loading model cost 1.939 seconds.
+I1228 15:43:04.587248 139768604694592 __init__.py:163] Loading model cost 1.939 seconds.
+Prefix dict has been built succesfully.
+I1228 15:43:04.587480 139768604694592 __init__.py:164] Prefix dict has been built succesfully.
+>> Synonyms on loading stopwords [/usr/local/python3/lib/python3.6/site-packages/synonyms/data/stopwords.txt] ...
+>> Synonyms on loading vectors [/usr/local/python3/lib/python3.6/site-packages/synonyms/data/words.vector] ...
+我醒了！
+你可以用这些小工具哦：
+1.@百科 查询名词
+2.@天气 地名
+3.@日期
+4.@笑话
+5.@新闻头条
+6.@微信精选
+7.@邮编查询 邮编
+8.@繁简火星文切换 句子
+9.@新华字典 字
+10.@成语词典 成语
+11.@QQ号码测吉凶 QQ号
+12.help
+要按格式来哦，不然我会当做闲聊的啦
+[pid: 3401|app: 0|req: 1/1] 180.160.70.222 () {44 vars in 771 bytes} [Fri Dec 28 15:43:01 2018] GET /?hello => generated 40 bytes in 9027 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3401|app: 0|req: 2/2] 180.160.70.222 () {44 vars in 787 bytes} [Fri Dec 28 15:43:50 2018] GET /?q%20=%20hello => generated 40 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3401|app: 0|req: 3/3] 180.160.70.222 () {44 vars in 775 bytes} [Fri Dec 28 15:43:58 2018] GET /?q=hello => generated 10 bytes in 196 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3401|app: 0|req: 4/4] 180.160.70.222 () {44 vars in 801 bytes} [Fri Dec 28 15:44:06 2018] GET /?q=%E4%BD%A0%E5%A5%BD => generated 16 bytes in 31 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3401|app: 0|req: 5/5] 180.160.70.222 () {38 vars in 517 bytes} [Fri Dec 28 15:45:04 2018] GET /?q=%E5%93%88%E5%93%88%E5%93%88 => generated 6 bytes in 21 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 3401|app: 0|req: 6/6] 180.160.70.222 () {38 vars in 499 bytes} [Fri Dec 28 15:45:11 2018] GET /?q=%E5%A5%BD%E5%95%8A => generated 20 bytes in 27 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3401|app: 0|req: 7/7] 180.160.70.222 () {44 vars in 801 bytes} [Fri Dec 28 15:47:37 2018] GET /?q=%E4%BD%A0%E5%A5%BD => generated 16 bytes in 28 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+smart_open library not found; falling back to local-filesystem-only
+>> Synonyms load wordseg dict [/usr/local/python3/lib/python3.6/site-packages/synonyms/data/vocab.txt] ... 
+Building prefix dict from /usr/local/python3/lib/python3.6/site-packages/synonyms/data/vocab.txt ...
+WARNING: Logging before flag parsing goes to stderr.
+I1228 15:47:38.865610 139768604694592 __init__.py:111] Building prefix dict from /usr/local/python3/lib/python3.6/site-packages/synonyms/data/vocab.txt ...
+Loading model from cache /tmp/jieba.u4fe750d5715ea29d6a389e9ab59bf0af.cache
+I1228 15:47:38.866342 139768604694592 __init__.py:131] Loading model from cache /tmp/jieba.u4fe750d5715ea29d6a389e9ab59bf0af.cache
+Loading model cost 1.894 seconds.
+I1228 15:47:40.760416 139768604694592 __init__.py:163] Loading model cost 1.894 seconds.
+Prefix dict has been built succesfully.
+I1228 15:47:40.760651 139768604694592 __init__.py:164] Prefix dict has been built succesfully.
+>> Synonyms on loading stopwords [/usr/local/python3/lib/python3.6/site-packages/synonyms/data/stopwords.txt] ...
+>> Synonyms on loading vectors [/usr/local/python3/lib/python3.6/site-packages/synonyms/data/words.vector] ...
+我醒了！
+你可以用这些小工具哦：
+1.@百科 查询名词
+2.@天气 地名
+3.@日期
+4.@笑话
+5.@新闻头条
+6.@微信精选
+7.@邮编查询 邮编
+8.@繁简火星文切换 句子
+9.@新华字典 字
+10.@成语词典 成语
+11.@QQ号码测吉凶 QQ号
+12.help
+要按格式来哦，不然我会当做闲聊的啦
+W1228 15:47:46.489373 139768604694592 log.py:228] Not Found: /favicon.ico
+[pid: 3403|app: 0|req: 1/8] 180.160.70.222 () {44 vars in 760 bytes} [Fri Dec 28 15:47:37 2018] GET /favicon.ico => generated 85 bytes in 8967 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 3401|app: 0|req: 8/9] 173.230.138.235 () {38 vars in 542 bytes} [Fri Dec 28 15:48:30 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3401|app: 0|req: 9/10] 188.247.49.78 () {36 vars in 528 bytes} [Fri Dec 28 16:33:40 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3401|app: 0|req: 10/11] 117.132.183.17 () {44 vars in 664 bytes} [Fri Dec 28 18:28:30 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3401|app: 0|req: 11/12] 91.243.167.177 () {42 vars in 669 bytes} [Fri Dec 28 18:35:38 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3401|app: 0|req: 12/13] 82.79.103.113 () {30 vars in 338 bytes} [Fri Dec 28 18:41:07 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.0 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3401|app: 0|req: 13/14] 201.18.144.94 () {30 vars in 338 bytes} [Fri Dec 28 20:19:34 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.0 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3401|app: 0|req: 14/15] 60.250.206.200 () {30 vars in 339 bytes} [Fri Dec 28 20:20:46 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.0 200) 3 headers in 108 bytes (1 switches on core 0)
+W1228 20:58:37.359686 139768604694592 log.py:228] Not Found: /robots.txt
+[pid: 3401|app: 0|req: 15/16] 37.49.231.203 () {30 vars in 359 bytes} [Fri Dec 28 20:58:37 2018] HEAD /robots.txt => generated 84 bytes in 2 msecs (HTTP/1.0 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 3401|app: 0|req: 16/17] 5.189.174.81 () {34 vars in 393 bytes} [Fri Dec 28 20:59:15 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3401|app: 0|req: 17/18] 47.94.39.226 () {30 vars in 337 bytes} [Fri Dec 28 21:15:21 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.0 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3401|app: 0|req: 18/19] 189.18.225.236 () {36 vars in 522 bytes} [Fri Dec 28 21:30:54 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3401|app: 0|req: 19/20] 169.54.233.123 () {34 vars in 435 bytes} [Fri Dec 28 22:22:16 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.0 200) 3 headers in 108 bytes (1 switches on core 0)
+W1228 22:35:42.216947 139768604694592 log.py:228] Not Found: /servlet
+[pid: 3401|app: 0|req: 20/21] 185.53.88.43 () {34 vars in 474 bytes} [Fri Dec 28 22:35:42 2018] GET /servlet?p=login&q=loginForm&jumpto=status => generated 81 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 3401|app: 0|req: 21/22] 91.146.130.222 () {30 vars in 339 bytes} [Fri Dec 28 23:17:31 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.0 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3401|app: 0|req: 22/23] 206.189.6.46 () {34 vars in 493 bytes} [Fri Dec 28 23:17:36 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3401|app: 0|req: 23/24] 118.31.244.58 () {30 vars in 338 bytes} [Fri Dec 28 23:41:56 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.0 200) 3 headers in 108 bytes (1 switches on core 0)
+W1229 00:10:03.326592 139768604694592 log.py:228] Not Found: /cache/global/img/gs.gif
+[pid: 3401|app: 0|req: 24/25] 80.82.70.187 () {36 vars in 490 bytes} [Sat Dec 29 00:10:03 2018] GET /cache/global/img/gs.gif => generated 97 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 3401|app: 0|req: 25/26] 95.78.181.212 () {30 vars in 338 bytes} [Sat Dec 29 00:11:24 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.0 200) 3 headers in 108 bytes (1 switches on core 0)
+W1229 01:07:34.569951 139768604694592 log.py:228] Not Found: /cache/global/img/gs.gif
+[pid: 3401|app: 0|req: 26/27] 80.82.78.50 () {36 vars in 489 bytes} [Sat Dec 29 01:07:34 2018] GET /cache/global/img/gs.gif => generated 97 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 3401|app: 0|req: 27/28] 169.54.233.124 () {34 vars in 435 bytes} [Sat Dec 29 01:17:41 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.0 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3401|app: 0|req: 28/29] 42.112.42.112 () {30 vars in 338 bytes} [Sat Dec 29 01:19:06 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.0 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3401|app: 0|req: 29/30] 158.85.81.117 () {34 vars in 434 bytes} [Sat Dec 29 01:54:54 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.0 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3401|app: 0|req: 30/31] 202.105.142.52 () {32 vars in 365 bytes} [Sat Dec 29 02:34:09 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3401|app: 0|req: 31/32] 121.40.130.66 () {36 vars in 424 bytes} [Sat Dec 29 02:50:31 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3401|app: 0|req: 32/33] 112.85.109.93 () {36 vars in 528 bytes} [Sat Dec 29 04:15:05 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3401|app: 0|req: 33/34] 103.110.6.194 () {36 vars in 528 bytes} [Sat Dec 29 04:57:26 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+W1229 06:09:06.315250 139768604694592 log.py:228] Not Found: /ccvv
+[pid: 3401|app: 0|req: 34/35] 71.6.202.198 () {38 vars in 494 bytes} [Sat Dec 29 06:09:06 2018] GET /ccvv => generated 78 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 3401|app: 0|req: 35/36] 59.126.67.162 () {30 vars in 338 bytes} [Sat Dec 29 07:10:51 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.0 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3401|app: 0|req: 36/37] 176.215.11.27 () {30 vars in 338 bytes} [Sat Dec 29 07:16:22 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.0 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3401|app: 0|req: 37/38] 142.93.100.102 () {38 vars in 452 bytes} [Sat Dec 29 07:17:29 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3401|app: 0|req: 38/39] 41.57.17.248 () {36 vars in 521 bytes} [Sat Dec 29 07:23:24 2018] GET / => generated 40 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3401|app: 0|req: 39/40] 201.93.205.127 () {36 vars in 522 bytes} [Sat Dec 29 07:25:29 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3401|app: 0|req: 40/41] 180.160.70.222 () {46 vars in 784 bytes} [Sat Dec 29 07:53:27 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+W1229 07:53:27.736385 139768604694592 log.py:228] Not Found: /favicon.ico
+[pid: 3401|app: 0|req: 41/42] 180.160.70.222 () {44 vars in 739 bytes} [Sat Dec 29 07:53:27 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 3401|app: 0|req: 42/43] 180.160.70.222 () {48 vars in 928 bytes} [Sat Dec 29 07:58:24 2018] GET /?q=undefined => generated 219 bytes in 30798 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3401|app: 0|req: 43/44] 180.160.70.222 () {48 vars in 946 bytes} [Sat Dec 29 08:00:28 2018] GET /?q=%E4%BD%A0%E5%A5%BD => generated 16 bytes in 30 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3401|app: 0|req: 44/45] 180.160.70.222 () {48 vars in 946 bytes} [Sat Dec 29 08:00:41 2018] GET /?q=%E4%BD%A0%E5%A5%BD => generated 16 bytes in 31 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3401|app: 0|req: 45/46] 180.160.70.222 () {48 vars in 946 bytes} [Sat Dec 29 08:01:20 2018] GET /?q=%E4%BD%A0%E5%A5%BD => generated 16 bytes in 32 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3401|app: 0|req: 46/47] 180.160.70.222 () {48 vars in 946 bytes} [Sat Dec 29 08:01:40 2018] GET /?q=%E4%BD%A0%E5%A5%BD => generated 16 bytes in 39 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3401|app: 0|req: 47/48] 180.160.70.222 () {48 vars in 946 bytes} [Sat Dec 29 08:02:06 2018] GET /?q=%E4%BD%A0%E5%A5%BD => generated 16 bytes in 33 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3401|app: 0|req: 48/49] 180.160.70.222 () {48 vars in 946 bytes} [Sat Dec 29 08:02:40 2018] GET /?q=%E4%BD%A0%E5%A5%BD => generated 16 bytes in 32 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3401|app: 0|req: 49/50] 180.160.70.222 () {48 vars in 910 bytes} [Sat Dec 29 08:05:08 2018] GET /?q= => generated 22 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+smart_open library not found; falling back to local-filesystem-only
+[pid: 3401|app: 0|req: 50/51] 180.160.70.222 () {48 vars in 910 bytes} [Sat Dec 29 08:05:09 2018] GET /?q= => generated 22 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+>> Synonyms load wordseg dict [/usr/local/python3/lib/python3.6/site-packages/synonyms/data/vocab.txt] ... 
+Building prefix dict from /usr/local/python3/lib/python3.6/site-packages/synonyms/data/vocab.txt ...
+WARNING: Logging before flag parsing goes to stderr.
+I1229 08:05:11.330980 139768604694592 __init__.py:111] Building prefix dict from /usr/local/python3/lib/python3.6/site-packages/synonyms/data/vocab.txt ...
+Loading model from cache /tmp/jieba.u4fe750d5715ea29d6a389e9ab59bf0af.cache
+I1229 08:05:11.332693 139768604694592 __init__.py:131] Loading model from cache /tmp/jieba.u4fe750d5715ea29d6a389e9ab59bf0af.cache
+Loading model cost 1.982 seconds.
+I1229 08:05:13.313142 139768604694592 __init__.py:163] Loading model cost 1.982 seconds.
+Prefix dict has been built succesfully.
+I1229 08:05:13.313464 139768604694592 __init__.py:164] Prefix dict has been built succesfully.
+>> Synonyms on loading stopwords [/usr/local/python3/lib/python3.6/site-packages/synonyms/data/stopwords.txt] ...
+>> Synonyms on loading vectors [/usr/local/python3/lib/python3.6/site-packages/synonyms/data/words.vector] ...
+我醒了！
+你可以用这些小工具哦：
+1.@百科 查询名词
+2.@天气 地名
+3.@日期
+4.@笑话
+5.@新闻头条
+6.@微信精选
+7.@邮编查询 邮编
+8.@繁简火星文切换 句子
+9.@新华字典 字
+10.@成语词典 成语
+11.@QQ号码测吉凶 QQ号
+12.help
+要按格式来哦，不然我会当做闲聊的啦
+[pid: 3402|app: 0|req: 1/52] 180.160.70.222 () {48 vars in 910 bytes} [Sat Dec 29 08:05:09 2018] GET /?q= => generated 22 bytes in 11073 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3403|app: 0|req: 2/53] 180.160.70.222 () {48 vars in 910 bytes} [Sat Dec 29 08:11:32 2018] GET /?q= => generated 22 bytes in 3 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3403|app: 0|req: 3/54] 180.160.70.222 () {48 vars in 946 bytes} [Sat Dec 29 08:11:41 2018] GET /?q=%E4%BD%A0%E5%A5%BD => generated 16 bytes in 35 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3403|app: 0|req: 4/55] 5.189.174.82 () {34 vars in 393 bytes} [Sat Dec 29 08:15:41 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3403|app: 0|req: 5/56] 180.160.70.222 () {48 vars in 946 bytes} [Sat Dec 29 08:16:16 2018] GET /?q=%E4%BD%A0%E5%A5%BD => generated 16 bytes in 30 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3403|app: 0|req: 6/57] 180.160.70.222 () {48 vars in 946 bytes} [Sat Dec 29 08:16:47 2018] GET /?q=%E4%BD%A0%E5%A5%BD => generated 16 bytes in 40 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3403|app: 0|req: 7/58] 180.160.70.222 () {48 vars in 946 bytes} [Sat Dec 29 08:17:17 2018] GET /?q=%E4%BD%A0%E5%A5%BD => generated 16 bytes in 30 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3403|app: 0|req: 8/59] 180.160.70.222 () {48 vars in 982 bytes} [Sat Dec 29 08:18:37 2018] GET /?q=%E4%BD%A0%E7%9C%9F%E6%9C%89%E8%B6%A3 => generated 7 bytes in 77 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 3403|app: 0|req: 9/60] 180.160.70.222 () {48 vars in 964 bytes} [Sat Dec 29 08:18:48 2018] GET /?q=%E5%93%88%E5%93%88%E5%93%88 => generated 6 bytes in 20 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 3403|app: 0|req: 10/61] 180.160.70.222 () {48 vars in 1036 bytes} [Sat Dec 29 08:19:05 2018] GET /?q=%E4%BD%A0%E5%8F%AB%E4%BB%80%E4%B9%88%E5%90%8D%E5%AD%97%E5%95%8A => generated 11 bytes in 11 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3403|app: 0|req: 11/62] 180.160.70.222 () {48 vars in 1036 bytes} [Sat Dec 29 08:19:19 2018] GET /?q=%E4%BD%A0%E6%98%AF%E5%93%AA%E4%B8%AA%E5%AD%A6%E6%A0%A1%E7%9A%84 => generated 28 bytes in 12 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3403|app: 0|req: 12/63] 180.160.70.222 () {48 vars in 990 bytes} [Sat Dec 29 08:19:42 2018] GET /?q=@%E7%99%BE%E7%A7%91%20%E4%BD%A0%E5%A5%BD => generated 223 bytes in 871 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3403|app: 0|req: 13/64] 180.160.70.222 () {48 vars in 980 bytes} [Sat Dec 29 08:20:19 2018] GET /?q=@%E7%99%BE%E7%A7%91%20hello%20world => generated 1041 bytes in 981 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 3403|app: 0|req: 14/65] 180.160.70.222 () {48 vars in 976 bytes} [Sat Dec 29 08:20:33 2018] GET /?q=@%E7%99%BE%E7%A7%91%20hello_world => generated 19 bytes in 953 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3402|app: 0|req: 2/66] 180.160.70.222 () {48 vars in 964 bytes} [Sat Dec 29 08:20:39 2018] GET /?q=@%E7%99%BE%E7%A7%91%20hello => generated 1041 bytes in 952 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 3403|app: 0|req: 15/67] 180.160.70.222 () {48 vars in 974 bytes} [Sat Dec 29 08:20:42 2018] GET /?q=@%E7%99%BE%E7%A7%91%20helloworld => generated 243 bytes in 625 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3403|app: 0|req: 16/68] 180.160.70.222 () {48 vars in 960 bytes} [Sat Dec 29 08:21:00 2018] GET /?q=@%E7%99%BE%E7%A7%91%20NLP => generated 1113 bytes in 967 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 3403|app: 0|req: 17/69] 180.160.70.222 () {48 vars in 990 bytes} [Sat Dec 29 08:21:24 2018] GET /?q=@%E5%A4%A9%E6%B0%94%20%E4%B8%8A%E6%B5%B7 => generated 204 bytes in 147 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3403|app: 0|req: 18/70] 180.160.70.222 () {48 vars in 948 bytes} [Sat Dec 29 08:21:47 2018] GET /?q=@%E7%AC%91%E8%AF%9D => generated 295 bytes in 161 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+E1229 08:22:12.453428 139768604694592 log.py:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./mybot/views.py", line 22, in index
+    content['answer'] = myBot.ask(request.GET['q'])
+  File "./mybot/my_bot.py", line 71, in ask
+    ans = self.find(sentence)
+  File "./mybot/my_bot.py", line 89, in find
+    res = self.controller.control(splits[0][1:], splits[1])
+  File "./mybot/api_controller.py", line 38, in control
+    return self.change(sentence)
+  File "./mybot/api_controller.py", line 119, in change
+    obj = json.loads(request.urlopen(response).read().decode('utf-8'))
+  File "/usr/local/python3/lib/python3.6/urllib/request.py", line 223, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/local/python3/lib/python3.6/urllib/request.py", line 526, in open
+    response = self._open(req, data)
+  File "/usr/local/python3/lib/python3.6/urllib/request.py", line 544, in _open
+    '_open', req)
+  File "/usr/local/python3/lib/python3.6/urllib/request.py", line 504, in _call_chain
+    result = func(*args)
+  File "/usr/local/python3/lib/python3.6/urllib/request.py", line 1346, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "/usr/local/python3/lib/python3.6/urllib/request.py", line 1318, in do_open
+    encode_chunked=req.has_header('Transfer-encoding'))
+  File "/usr/local/python3/lib/python3.6/http/client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/python3/lib/python3.6/http/client.py", line 1250, in _send_request
+    self.putrequest(method, url, **skips)
+  File "/usr/local/python3/lib/python3.6/http/client.py", line 1117, in putrequest
+    self._output(request.encode('ascii'))
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 64-67: ordinal not in range(128)
+[pid: 3403|app: 0|req: 19/71] 180.160.70.222 () {48 vars in 1080 bytes} [Sat Dec 29 08:22:12 2018] GET /?q=@%E7%B9%81%E7%AE%80%E7%81%AB%E6%98%9F%E6%96%87%E5%88%87%E6%8D%A2%20%E4%BD%A0%E5%A5%BD => generated 27 bytes in 59 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+[pid: 3403|app: 0|req: 20/72] 180.160.70.222 () {48 vars in 1080 bytes} [Sat Dec 29 08:22:19 2018] GET /?q=@%E7%AE%80%E7%B9%81%E7%81%AB%E6%98%9F%E6%96%87%E5%88%87%E6%8D%A2%20%E4%BD%A0%E5%A5%BD => generated 19 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+E1229 08:22:59.618877 139768604694592 log.py:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./mybot/views.py", line 22, in index
+    content['answer'] = myBot.ask(request.GET['q'])
+  File "./mybot/my_bot.py", line 71, in ask
+    ans = self.find(sentence)
+  File "./mybot/my_bot.py", line 89, in find
+    res = self.controller.control(splits[0][1:], splits[1])
+  File "./mybot/api_controller.py", line 38, in control
+    return self.change(sentence)
+  File "./mybot/api_controller.py", line 119, in change
+    obj = json.loads(request.urlopen(response).read().decode('utf-8'))
+  File "/usr/local/python3/lib/python3.6/urllib/request.py", line 223, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/local/python3/lib/python3.6/urllib/request.py", line 526, in open
+    response = self._open(req, data)
+  File "/usr/local/python3/lib/python3.6/urllib/request.py", line 544, in _open
+    '_open', req)
+  File "/usr/local/python3/lib/python3.6/urllib/request.py", line 504, in _call_chain
+    result = func(*args)
+  File "/usr/local/python3/lib/python3.6/urllib/request.py", line 1346, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "/usr/local/python3/lib/python3.6/urllib/request.py", line 1318, in do_open
+    encode_chunked=req.has_header('Transfer-encoding'))
+  File "/usr/local/python3/lib/python3.6/http/client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/python3/lib/python3.6/http/client.py", line 1250, in _send_request
+    self.putrequest(method, url, **skips)
+  File "/usr/local/python3/lib/python3.6/http/client.py", line 1117, in putrequest
+    self._output(request.encode('ascii'))
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 64-67: ordinal not in range(128)
+[pid: 3403|app: 0|req: 21/73] 180.160.70.222 () {48 vars in 1080 bytes} [Sat Dec 29 08:22:59 2018] GET /?q=@%E7%B9%81%E7%AE%80%E7%81%AB%E6%98%9F%E6%96%87%E5%88%87%E6%8D%A2%20%E4%BD%A0%E5%A5%BD => generated 27 bytes in 22 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+E1229 08:23:00.369174 139768604694592 log.py:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./mybot/views.py", line 22, in index
+    content['answer'] = myBot.ask(request.GET['q'])
+  File "./mybot/my_bot.py", line 71, in ask
+    ans = self.find(sentence)
+  File "./mybot/my_bot.py", line 89, in find
+    res = self.controller.control(splits[0][1:], splits[1])
+  File "./mybot/api_controller.py", line 38, in control
+    return self.change(sentence)
+  File "./mybot/api_controller.py", line 119, in change
+    obj = json.loads(request.urlopen(response).read().decode('utf-8'))
+  File "/usr/local/python3/lib/python3.6/urllib/request.py", line 223, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/local/python3/lib/python3.6/urllib/request.py", line 526, in open
+    response = self._open(req, data)
+  File "/usr/local/python3/lib/python3.6/urllib/request.py", line 544, in _open
+    '_open', req)
+  File "/usr/local/python3/lib/python3.6/urllib/request.py", line 504, in _call_chain
+    result = func(*args)
+  File "/usr/local/python3/lib/python3.6/urllib/request.py", line 1346, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "/usr/local/python3/lib/python3.6/urllib/request.py", line 1318, in do_open
+    encode_chunked=req.has_header('Transfer-encoding'))
+  File "/usr/local/python3/lib/python3.6/http/client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/python3/lib/python3.6/http/client.py", line 1250, in _send_request
+    self.putrequest(method, url, **skips)
+  File "/usr/local/python3/lib/python3.6/http/client.py", line 1117, in putrequest
+    self._output(request.encode('ascii'))
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 64-67: ordinal not in range(128)
+[pid: 3402|app: 0|req: 3/74] 180.160.70.222 () {48 vars in 1080 bytes} [Sat Dec 29 08:23:00 2018] GET /?q=@%E7%B9%81%E7%AE%80%E7%81%AB%E6%98%9F%E6%96%87%E5%88%87%E6%8D%A2%20%E4%BD%A0%E5%A5%BD => generated 27 bytes in 27 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+E1229 08:23:31.723359 139768604694592 log.py:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/python3/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./mybot/views.py", line 22, in index
+    content['answer'] = myBot.ask(request.GET['q'])
+  File "./mybot/my_bot.py", line 71, in ask
+    ans = self.find(sentence)
+  File "./mybot/my_bot.py", line 89, in find
+    res = self.controller.control(splits[0][1:], splits[1])
+  File "./mybot/api_controller.py", line 38, in control
+    return self.change(sentence)
+  File "./mybot/api_controller.py", line 119, in change
+    obj = json.loads(request.urlopen(response).read().decode('utf-8'))
+  File "/usr/local/python3/lib/python3.6/urllib/request.py", line 223, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/local/python3/lib/python3.6/urllib/request.py", line 526, in open
+    response = self._open(req, data)
+  File "/usr/local/python3/lib/python3.6/urllib/request.py", line 544, in _open
+    '_open', req)
+  File "/usr/local/python3/lib/python3.6/urllib/request.py", line 504, in _call_chain
+    result = func(*args)
+  File "/usr/local/python3/lib/python3.6/urllib/request.py", line 1346, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "/usr/local/python3/lib/python3.6/urllib/request.py", line 1318, in do_open
+    encode_chunked=req.has_header('Transfer-encoding'))
+  File "/usr/local/python3/lib/python3.6/http/client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/python3/lib/python3.6/http/client.py", line 1250, in _send_request
+    self.putrequest(method, url, **skips)
+  File "/usr/local/python3/lib/python3.6/http/client.py", line 1117, in putrequest
+    self._output(request.encode('ascii'))
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 55-58: ordinal not in range(128)
+[pid: 3403|app: 0|req: 22/75] 180.160.70.222 () {48 vars in 1062 bytes} [Sat Dec 29 08:23:31 2018] GET /?q=@%E7%B9%81%E7%AE%80%E7%81%AB%E6%98%9F%E6%96%87%E5%88%87%E6%8D%A2%20%E6%88%91 => generated 27 bytes in 22 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+[pid: 3403|app: 0|req: 23/76] 180.160.70.222 () {48 vars in 948 bytes} [Sat Dec 29 08:24:06 2018] GET /?q=@%E6%97%A5%E6%9C%9F => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3403|app: 0|req: 24/77] 180.160.70.222 () {48 vars in 1062 bytes} [Sat Dec 29 08:24:41 2018] GET /?q=@%E6%88%90%E8%AF%AD%E8%AF%8D%E5%85%B8%20%E6%88%91%E8%A1%8C%E6%88%91%E7%B4%A0 => generated 102 bytes in 97 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3403|app: 0|req: 25/78] 180.160.70.222 () {48 vars in 1032 bytes} [Sat Dec 29 08:25:02 2018] GET /?q=@QQ%E5%8F%B7%E7%A0%81%E6%B5%8B%E5%90%89%E5%87%B6%202739967118 => generated 163 bytes in 204 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Dec 29 16:39:42 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 28 December 2018 10:00:38
+os: Linux-3.10.0-957.1.3.el7.x86_64 #1 SMP Thu Nov 29 14:49:43 UTC 2018
+nodename: izwz918knl07yk6dv97iu3z
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /data/wwwroot/home
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /data/wwwroot/home/
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7269
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8997).
+bind(): Address already in use [core/socket.c line 769]
+smart_open library not found; falling back to local-filesystem-only
+>> Synonyms load wordseg dict [/usr/local/python3/lib/python3.6/site-packages/synonyms/data/vocab.txt] ... 
+Building prefix dict from /usr/local/python3/lib/python3.6/site-packages/synonyms/data/vocab.txt ...
+WARNING: Logging before flag parsing goes to stderr.
+I1229 08:40:59.761111 139768604694592 __init__.py:111] Building prefix dict from /usr/local/python3/lib/python3.6/site-packages/synonyms/data/vocab.txt ...
+Loading model from cache /tmp/jieba.u4fe750d5715ea29d6a389e9ab59bf0af.cache
+I1229 08:40:59.761785 139768604694592 __init__.py:131] Loading model from cache /tmp/jieba.u4fe750d5715ea29d6a389e9ab59bf0af.cache
+Loading model cost 1.917 seconds.
+I1229 08:41:01.678259 139768604694592 __init__.py:163] Loading model cost 1.917 seconds.
+Prefix dict has been built succesfully.
+I1229 08:41:01.678524 139768604694592 __init__.py:164] Prefix dict has been built succesfully.
+>> Synonyms on loading stopwords [/usr/local/python3/lib/python3.6/site-packages/synonyms/data/stopwords.txt] ...
+>> Synonyms on loading vectors [/usr/local/python3/lib/python3.6/site-packages/synonyms/data/words.vector] ...
+我醒了！
+你可以用这些小工具哦：
+1.@百科 查询名词
+2.@天气 地名
+3.@日期
+4.@笑话
+5.@新闻头条
+6.@微信精选
+7.@邮编查询 邮编
+8.@新华字典 字
+9.@成语词典 成语
+10.@QQ号码测吉凶 QQ号
+11.help
+要按格式来哦，不然我会当做闲聊的啦
+[pid: 3399|app: 0|req: 1/79] 180.160.70.222 () {48 vars in 918 bytes} [Sat Dec 29 08:40:57 2018] GET /?q=help => generated 280 bytes in 9880 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 2/80] 180.160.70.222 () {48 vars in 918 bytes} [Sat Dec 29 08:42:12 2018] GET /?q=help => generated 280 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 3/81] 180.160.70.222 () {48 vars in 918 bytes} [Sat Dec 29 08:42:13 2018] GET /?q=help => generated 280 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 4/82] 180.160.70.222 () {48 vars in 918 bytes} [Sat Dec 29 08:42:15 2018] GET /?q=help => generated 280 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 5/83] 180.160.70.222 () {48 vars in 918 bytes} [Sat Dec 29 08:42:28 2018] GET /?q=help => generated 280 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 6/84] 180.160.70.222 () {48 vars in 918 bytes} [Sat Dec 29 08:42:37 2018] GET /?q=help => generated 280 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 7/85] 180.160.70.222 () {48 vars in 918 bytes} [Sat Dec 29 08:42:46 2018] GET /?q=help => generated 280 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 8/86] 180.160.70.222 () {48 vars in 918 bytes} [Sat Dec 29 08:43:03 2018] GET /?q=help => generated 280 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 9/87] 180.160.70.222 () {48 vars in 918 bytes} [Sat Dec 29 08:43:07 2018] GET /?q=help => generated 280 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 10/88] 180.160.70.222 () {48 vars in 918 bytes} [Sat Dec 29 08:43:07 2018] GET /?q=help => generated 280 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 11/89] 180.160.70.222 () {48 vars in 918 bytes} [Sat Dec 29 08:43:18 2018] GET /?q=help => generated 280 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 12/90] 180.160.70.222 () {48 vars in 918 bytes} [Sat Dec 29 08:43:23 2018] GET /?q=help => generated 280 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 13/91] 180.160.70.222 () {48 vars in 918 bytes} [Sat Dec 29 08:43:34 2018] GET /?q=help => generated 280 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 14/92] 180.160.70.222 () {48 vars in 918 bytes} [Sat Dec 29 08:43:51 2018] GET /?q=help => generated 280 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 15/93] 180.160.70.222 () {48 vars in 974 bytes} [Sat Dec 29 08:44:39 2018] GET /?q=@%E7%99%BE%E7%A7%91%20helloworld => generated 243 bytes in 685 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 16/94] 180.160.70.222 () {48 vars in 960 bytes} [Sat Dec 29 08:44:52 2018] GET /?q=@%E7%99%BE%E7%A7%91%20NLP => generated 1113 bytes in 911 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 17/95] 180.160.70.222 () {48 vars in 1032 bytes} [Sat Dec 29 08:45:10 2018] GET /?q=@QQ%E5%8F%B7%E7%A0%81%E6%B5%8B%E5%90%89%E5%87%B6%202739967118 => generated 163 bytes in 186 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 18/96] 180.160.70.222 () {48 vars in 964 bytes} [Sat Dec 29 08:45:33 2018] GET /?q=%E5%93%88%E5%93%88%E5%93%88 => generated 6 bytes in 19 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 19/97] 180.160.70.222 () {48 vars in 1018 bytes} [Sat Dec 29 08:45:47 2018] GET /?q=%E4%BD%A0%E5%8F%AB%E4%BB%80%E4%B9%88%E5%90%8D%E5%AD%97 => generated 11 bytes in 10 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 20/98] 180.160.70.222 () {48 vars in 946 bytes} [Sat Dec 29 08:46:04 2018] GET /?q=%E4%BD%A0%E5%A5%BD => generated 16 bytes in 32 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 21/99] 180.160.70.222 () {48 vars in 946 bytes} [Sat Dec 29 08:46:20 2018] GET /?q=%E6%97%A5%E6%9C%9F => generated 36 bytes in 9840 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 22/100] 180.160.70.222 () {48 vars in 948 bytes} [Sat Dec 29 08:46:30 2018] GET /?q=@%E6%97%A5%E6%9C%9F => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 23/101] 180.160.70.222 () {48 vars in 948 bytes} [Sat Dec 29 08:46:31 2018] GET /?q=@%E6%97%A5%E6%9C%9F => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 24/102] 180.160.70.222 () {48 vars in 948 bytes} [Sat Dec 29 08:46:47 2018] GET /?q=@%E5%A4%A9%E6%B0%94 => generated 19 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 25/103] 180.160.70.222 () {48 vars in 990 bytes} [Sat Dec 29 08:46:52 2018] GET /?q=@%E5%A4%A9%E6%B0%94%20%E4%B8%8A%E6%B5%B7 => generated 204 bytes in 101 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 26/104] 180.160.70.222 () {48 vars in 1062 bytes} [Sat Dec 29 08:47:15 2018] GET /?q=@%E6%88%90%E8%AF%AD%E8%AF%8D%E5%85%B8%20%E6%88%91%E8%A1%8C%E6%88%91%E7%B4%A0 => generated 102 bytes in 109 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 27/105] 180.160.70.222 () {48 vars in 948 bytes} [Sat Dec 29 08:47:26 2018] GET /?q=@%E7%AC%91%E8%AF%9D => generated 295 bytes in 111 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 28/106] 180.160.70.222 () {48 vars in 1036 bytes} [Sat Dec 29 08:47:39 2018] GET /?q=%E4%BD%A0%E6%98%AF%E4%BB%80%E4%B9%88%E5%AD%A6%E6%A0%A1%E7%9A%84 => generated 11 bytes in 10 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 29/107] 180.160.70.222 () {48 vars in 1036 bytes} [Sat Dec 29 08:47:43 2018] GET /?q=%E4%BD%A0%E6%98%AF%E4%BB%80%E4%B9%88%E5%AD%A6%E6%A0%A1%E7%9A%84 => generated 11 bytes in 9 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 30/108] 180.160.70.222 () {48 vars in 1036 bytes} [Sat Dec 29 08:47:44 2018] GET /?q=%E4%BD%A0%E6%98%AF%E4%BB%80%E4%B9%88%E5%AD%A6%E6%A0%A1%E7%9A%84 => generated 11 bytes in 10 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 31/109] 180.160.70.222 () {48 vars in 1036 bytes} [Sat Dec 29 08:47:51 2018] GET /?q=%E4%BD%A0%E6%98%AF%E5%93%AA%E4%B8%AA%E5%AD%A6%E6%A0%A1%E7%9A%84 => generated 28 bytes in 11 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 32/110] 180.160.70.222 () {48 vars in 982 bytes} [Sat Dec 29 08:48:05 2018] GET /?q=%E4%BD%A0%E5%A5%BD%E5%8F%AF%E7%88%B1 => generated 79 bytes in 92 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 33/111] 180.160.70.222 () {48 vars in 964 bytes} [Sat Dec 29 08:48:21 2018] GET /?q=%E7%9C%9F%E6%A3%92%E5%95%8A => generated 10 bytes in 72 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 34/112] 180.160.70.222 () {48 vars in 946 bytes} [Sat Dec 29 08:48:26 2018] GET /?q=%E7%9C%9F%E6%A3%92 => generated 26 bytes in 3280 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 35/113] 180.160.70.222 () {48 vars in 1000 bytes} [Sat Dec 29 08:48:33 2018] GET /?q=%E7%9C%9F%E6%98%AF%E5%A4%AA%E6%A3%92%E4%BA%86 => generated 88 bytes in 624 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 36/114] 180.160.70.222 () {48 vars in 964 bytes} [Sat Dec 29 08:49:02 2018] GET /?q=%E5%A5%BD%E5%AE%B6%E4%BC%99 => generated 37 bytes in 4907 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Dec 29 16:52:23 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 28 December 2018 10:00:38
+os: Linux-3.10.0-957.1.3.el7.x86_64 #1 SMP Thu Nov 29 14:49:43 UTC 2018
+nodename: izwz918knl07yk6dv97iu3z
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /data/wwwroot/home
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /data/wwwroot/home/
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7269
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8997).
+bind(): Address already in use [core/socket.c line 769]
+[pid: 3399|app: 0|req: 37/115] 180.160.70.222 () {48 vars in 964 bytes} [Sat Dec 29 08:52:47 2018] GET /?q=%E6%95%99%E6%95%99%E6%88%91 => generated 10 bytes in 18 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 38/116] 180.160.70.222 () {48 vars in 1000 bytes} [Sat Dec 29 08:52:56 2018] GET /?q=%E4%BD%A0%E7%9C%9F%E5%8F%AF%E7%88%B1%E5%95%8A => generated 25 bytes in 35 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 39/117] 180.160.70.222 () {48 vars in 946 bytes} [Sat Dec 29 08:53:05 2018] GET /?q=%E7%9C%9F%E6%A3%92 => generated 26 bytes in 3071 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 40/118] 180.160.70.222 () {48 vars in 964 bytes} [Sat Dec 29 08:53:15 2018] GET /?q=%E5%93%88%E5%93%88%E5%93%88 => generated 6 bytes in 17 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 41/119] 180.160.70.222 () {48 vars in 946 bytes} [Sat Dec 29 08:53:23 2018] GET /?q=%E7%9C%9F%E6%A3%92 => generated 26 bytes in 3130 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 42/120] 180.160.70.222 () {48 vars in 1054 bytes} [Sat Dec 29 08:53:48 2018] GET /?q=%E4%BD%A0%E6%98%AF%E4%B8%80%E5%8F%AA%E5%B0%8F%E7%8C%AB%E5%92%AA%E5%90%97 => generated 25 bytes in 746 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 43/121] 180.160.70.222 () {48 vars in 918 bytes} [Sat Dec 29 08:56:56 2018] GET /?q=help => generated 280 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 44/122] 158.85.81.126 () {34 vars in 434 bytes} [Sat Dec 29 09:01:03 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.0 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 45/123] 180.160.70.222 () {48 vars in 918 bytes} [Sat Dec 29 09:02:50 2018] GET /?q=help => generated 280 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 46/124] 169.53.184.5 () {34 vars in 433 bytes} [Sat Dec 29 09:04:50 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.0 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 47/125] 180.160.70.222 () {48 vars in 918 bytes} [Sat Dec 29 09:05:23 2018] GET /?q=help => generated 280 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 48/126] 180.160.70.222 () {48 vars in 918 bytes} [Sat Dec 29 09:06:08 2018] GET /?q=help => generated 280 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 49/127] 180.160.70.222 () {48 vars in 974 bytes} [Sat Dec 29 09:06:17 2018] GET /?q=@%E7%99%BE%E7%A7%91%20helloworld => generated 243 bytes in 669 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 50/128] 180.160.70.222 () {48 vars in 960 bytes} [Sat Dec 29 09:06:26 2018] GET /?q=@%E7%99%BE%E7%A7%91%20NLP => generated 1113 bytes in 908 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 51/129] 180.160.70.222 () {48 vars in 1032 bytes} [Sat Dec 29 09:06:41 2018] GET /?q=@QQ%E5%8F%B7%E7%A0%81%E6%B5%8B%E5%90%89%E5%87%B6%202739967118 => generated 163 bytes in 179 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 52/130] 180.160.70.222 () {48 vars in 964 bytes} [Sat Dec 29 09:06:47 2018] GET /?q=%E5%93%88%E5%93%88%E5%93%88 => generated 6 bytes in 16 msecs (HTTP/1.1 200) 3 headers in 107 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 53/131] 180.160.70.222 () {48 vars in 1018 bytes} [Sat Dec 29 09:06:55 2018] GET /?q=%E4%BD%A0%E5%8F%AB%E4%BB%80%E4%B9%88%E5%90%8D%E5%AD%97 => generated 11 bytes in 10 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 54/132] 180.160.70.222 () {48 vars in 946 bytes} [Sat Dec 29 09:07:01 2018] GET /?q=%E4%BD%A0%E5%A5%BD => generated 16 bytes in 24 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 55/133] 180.160.70.222 () {48 vars in 982 bytes} [Sat Dec 29 09:07:09 2018] GET /?q=%E4%BD%A0%E5%A5%BD%E5%8F%AF%E7%88%B1 => generated 79 bytes in 92 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 56/134] 180.160.70.222 () {48 vars in 948 bytes} [Sat Dec 29 09:07:16 2018] GET /?q=@%E6%97%A5%E6%9C%9F => generated 20 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 57/135] 180.160.70.222 () {48 vars in 990 bytes} [Sat Dec 29 09:07:22 2018] GET /?q=@%E5%A4%A9%E6%B0%94%20%E4%B8%8A%E6%B5%B7 => generated 204 bytes in 83 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 58/136] 180.160.70.222 () {48 vars in 948 bytes} [Sat Dec 29 09:07:26 2018] GET /?q=@%E5%A4%A9%E6%B0%94 => generated 19 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 59/137] 180.160.70.222 () {48 vars in 1062 bytes} [Sat Dec 29 09:07:33 2018] GET /?q=@%E6%88%90%E8%AF%AD%E8%AF%8D%E5%85%B8%20%E6%88%91%E8%A1%8C%E6%88%91%E7%B4%A0 => generated 102 bytes in 107 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 60/138] 180.160.70.222 () {48 vars in 1054 bytes} [Sat Dec 29 09:07:43 2018] GET /?q=%E4%BD%A0%E6%98%AF%E4%B8%80%E5%8F%AA%E5%B0%8F%E7%8C%AB%E5%92%AA%E5%90%97 => generated 25 bytes in 582 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 61/139] 180.160.70.222 () {48 vars in 948 bytes} [Sat Dec 29 09:07:49 2018] GET /?q=@%E7%AC%91%E8%AF%9D => generated 295 bytes in 124 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 62/140] 180.160.70.222 () {48 vars in 1036 bytes} [Sat Dec 29 09:07:57 2018] GET /?q=%E4%BD%A0%E6%98%AF%E5%93%AA%E4%B8%AA%E5%AD%A6%E6%A0%A1%E7%9A%84 => generated 28 bytes in 11 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 63/141] 180.160.70.222 () {48 vars in 964 bytes} [Sat Dec 29 09:08:03 2018] GET /?q=%E7%9C%9F%E6%A3%92%EF%BC%81 => generated 26 bytes in 3345 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 64/142] 180.160.70.222 () {48 vars in 918 bytes} [Sat Dec 29 09:08:22 2018] GET /?q=help => generated 280 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 109 bytes (1 switches on core 0)
+W1229 10:20:32.811435 139768604694592 log.py:228] Not Found: /cache/global/img/gs.gif
+[pid: 3399|app: 0|req: 65/143] 80.82.70.187 () {36 vars in 490 bytes} [Sat Dec 29 10:20:32 2018] GET /cache/global/img/gs.gif => generated 97 bytes in 7 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 66/144] 103.15.81.28 () {36 vars in 520 bytes} [Sat Dec 29 10:30:17 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 67/145] 187.62.37.102 () {36 vars in 528 bytes} [Sat Dec 29 10:39:14 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+W1229 11:10:32.244327 139768604694592 log.py:228] Not Found: /echo.php
+[pid: 3399|app: 0|req: 68/146] 139.162.88.63 () {36 vars in 477 bytes} [Sat Dec 29 11:10:32 2018] GET /echo.php?info=1234567890 => generated 82 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 69/147] 177.84.41.68 () {36 vars in 527 bytes} [Sat Dec 29 11:51:28 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 70/148] 114.34.185.64 () {30 vars in 338 bytes} [Sat Dec 29 12:22:43 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.0 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 71/149] 60.170.122.185 () {38 vars in 559 bytes} [Sat Dec 29 14:25:59 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 72/150] 117.25.157.98 () {44 vars in 700 bytes} [Sat Dec 29 14:26:01 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 73/151] 117.25.157.98 () {44 vars in 700 bytes} [Sat Dec 29 14:26:02 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 74/152] 80.82.70.118 () {34 vars in 432 bytes} [Sat Dec 29 14:50:15 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.0 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 75/153] 194.50.254.170 () {36 vars in 529 bytes} [Sat Dec 29 15:25:07 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 76/154] 151.217.177.130 () {38 vars in 453 bytes} [Sat Dec 29 16:40:10 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 77/155] 80.229.205.166 () {36 vars in 523 bytes} [Sat Dec 29 16:49:05 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 78/156] 80.229.205.166 () {36 vars in 529 bytes} [Sat Dec 29 16:49:05 2018] GET / => generated 40 bytes in 0 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 79/157] 47.100.64.9 () {30 vars in 336 bytes} [Sat Dec 29 16:49:45 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.0 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 80/158] 87.0.100.141 () {36 vars in 521 bytes} [Sat Dec 29 17:00:55 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 81/159] 60.170.122.185 () {38 vars in 559 bytes} [Sat Dec 29 17:24:00 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 82/160] 43.239.152.200 () {36 vars in 523 bytes} [Sat Dec 29 17:33:44 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 83/161] 149.140.134.80 () {36 vars in 522 bytes} [Sat Dec 29 18:20:23 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 84/162] 109.1.110.223 () {36 vars in 522 bytes} [Sat Dec 29 18:33:02 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 85/163] 177.95.53.97 () {36 vars in 521 bytes} [Sat Dec 29 18:46:39 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 86/164] 189.39.241.123 () {36 vars in 522 bytes} [Sat Dec 29 20:06:08 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 87/165] 60.191.38.78 () {38 vars in 515 bytes} [Sat Dec 29 20:22:43 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+W1229 20:34:05.810838 139768604694592 log.py:228] Not Found: /cache/global/img/gs.gif
+[pid: 3399|app: 0|req: 88/166] 80.82.70.187 () {36 vars in 490 bytes} [Sat Dec 29 20:34:05 2018] GET /cache/global/img/gs.gif => generated 97 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 89/167] 81.88.198.202 () {36 vars in 522 bytes} [Sat Dec 29 22:06:11 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 90/168] 168.1.128.59 () {34 vars in 433 bytes} [Sat Dec 29 22:36:33 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.0 200) 3 headers in 108 bytes (1 switches on core 0)
+W1229 22:54:39.330911 139768604694592 log.py:228] Not Found: /cache/global/img/gs.gif
+[pid: 3399|app: 0|req: 91/169] 80.82.78.50 () {36 vars in 489 bytes} [Sat Dec 29 22:54:39 2018] GET /cache/global/img/gs.gif => generated 97 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 92/170] 185.131.188.57 () {36 vars in 529 bytes} [Sat Dec 29 23:05:58 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 93/171] 94.102.49.193 () {38 vars in 594 bytes} [Sat Dec 29 23:26:01 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+W1229 23:26:04.391005 139768604694592 log.py:228] Not Found: /robots.txt
+[pid: 3399|app: 0|req: 94/172] 94.102.49.193 () {34 vars in 417 bytes} [Sat Dec 29 23:26:04 2018] GET /robots.txt => generated 84 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+W1229 23:26:05.398311 139768604694592 log.py:228] Not Found: /sitemap.xml
+[pid: 3399|app: 0|req: 95/173] 94.102.49.193 () {34 vars in 419 bytes} [Sat Dec 29 23:26:05 2018] GET /sitemap.xml => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+W1229 23:26:08.374405 139768604694592 log.py:228] Not Found: /.well-known/security.txt
+[pid: 3399|app: 0|req: 96/174] 94.102.49.193 () {34 vars in 445 bytes} [Sat Dec 29 23:26:08 2018] GET /.well-known/security.txt => generated 98 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+W1229 23:26:11.021798 139768604694592 log.py:228] Not Found: /favicon.ico
+[pid: 3399|app: 0|req: 97/175] 94.102.49.193 () {40 vars in 512 bytes} [Sat Dec 29 23:26:11 2018] GET /favicon.ico => generated 85 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 98/176] 86.60.229.221 () {36 vars in 521 bytes} [Sun Dec 30 00:24:03 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 99/177] 185.44.230.131 () {36 vars in 522 bytes} [Sun Dec 30 00:43:12 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 100/178] 89.236.33.50 () {36 vars in 520 bytes} [Sun Dec 30 00:51:03 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 101/179] 103.91.94.68 () {36 vars in 520 bytes} [Sun Dec 30 01:27:16 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 102/180] 47.97.10.19 () {30 vars in 336 bytes} [Sun Dec 30 02:10:58 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.0 200) 3 headers in 108 bytes (1 switches on core 0)
+W1230 04:10:06.088405 139768604694592 log.py:228] Not Found: /w00tw00t.at.blackhats.romanian.anti-sec:)
+[pid: 3399|app: 0|req: 103/181] 89.38.150.219 () {42 vars in 578 bytes} [Sun Dec 30 04:10:06 2018] GET /w00tw00t.at.blackhats.romanian.anti-sec:) => generated 115 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+W1230 04:10:06.772896 139768604694592 log.py:228] Not Found: /phpMyAdmin/scripts/setup.php
+[pid: 3399|app: 0|req: 104/182] 89.38.150.219 () {42 vars in 552 bytes} [Sun Dec 30 04:10:06 2018] GET /phpMyAdmin/scripts/setup.php => generated 102 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+W1230 04:10:07.501933 139768604694592 log.py:228] Not Found: /phpmyadmin/scripts/setup.php
+[pid: 3399|app: 0|req: 105/183] 89.38.150.219 () {42 vars in 552 bytes} [Sun Dec 30 04:10:07 2018] GET /phpmyadmin/scripts/setup.php => generated 102 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 101 bytes (1 switches on core 0)
+W1230 04:10:08.204710 139768604694592 log.py:228] Not Found: /pma/scripts/setup.php
+[pid: 3399|app: 0|req: 106/184] 89.38.150.219 () {42 vars in 538 bytes} [Sun Dec 30 04:10:08 2018] GET /pma/scripts/setup.php => generated 95 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+W1230 04:10:08.910315 139768604694592 log.py:228] Not Found: /myadmin/scripts/setup.php
+[pid: 3399|app: 0|req: 107/185] 89.38.150.219 () {42 vars in 546 bytes} [Sun Dec 30 04:10:08 2018] GET /myadmin/scripts/setup.php => generated 99 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+W1230 04:10:09.571626 139768604694592 log.py:228] Not Found: /MyAdmin/scripts/setup.php
+[pid: 3399|app: 0|req: 108/186] 89.38.150.219 () {42 vars in 546 bytes} [Sun Dec 30 04:10:09 2018] GET /MyAdmin/scripts/setup.php => generated 99 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 109/187] 103.54.216.178 () {36 vars in 523 bytes} [Sun Dec 30 04:35:14 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+W1230 07:06:26.757629 139768604694592 log.py:228] Not Found: /cache/global/img/gs.gif
+[pid: 3399|app: 0|req: 110/188] 80.82.70.187 () {36 vars in 490 bytes} [Sun Dec 30 07:06:26 2018] GET /cache/global/img/gs.gif => generated 97 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 111/189] 121.40.130.66 () {36 vars in 425 bytes} [Sun Dec 30 10:30:54 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 112/190] 139.162.119.197 () {36 vars in 459 bytes} [Sun Dec 30 10:55:03 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 113/191] 31.179.251.108 () {36 vars in 523 bytes} [Sun Dec 30 11:09:52 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+W1230 11:17:27.545855 139768604694592 log.py:228] Not Found: /echo.php
+[pid: 3399|app: 0|req: 114/192] 139.162.88.63 () {36 vars in 477 bytes} [Sun Dec 30 11:17:27 2018] GET /echo.php?info=1234567890 => generated 82 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 115/193] 49.247.202.173 () {38 vars in 452 bytes} [Sun Dec 30 11:38:20 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 116/194] 168.1.128.52 () {34 vars in 433 bytes} [Sun Dec 30 12:15:21 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.0 200) 3 headers in 108 bytes (1 switches on core 0)
+W1230 14:10:18.755736 139768604694592 log.py:228] Not Found: /AgentLogin.aspx
+[pid: 3399|app: 0|req: 117/195] 175.10.240.212 () {32 vars in 477 bytes} [Sun Dec 30 14:10:18 2018] GET /AgentLogin.aspx?tbnick=%E5%BB%96%E7%8E%89%E7%94%9F84 => generated 89 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 118/196] 212.33.229.239 () {36 vars in 529 bytes} [Sun Dec 30 15:06:10 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+W1230 17:17:05.517841 139768604694592 log.py:228] Not Found: /cache/global/img/gs.gif
+[pid: 3399|app: 0|req: 119/197] 80.82.70.187 () {36 vars in 490 bytes} [Sun Dec 30 17:17:05 2018] GET /cache/global/img/gs.gif => generated 97 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 120/198] 47.97.21.76 () {30 vars in 336 bytes} [Sun Dec 30 17:20:03 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.0 200) 3 headers in 108 bytes (1 switches on core 0)
+W1230 17:33:49.696491 139768604694592 log.py:228] Not Found: /servlet
+[pid: 3399|app: 0|req: 121/199] 102.165.36.57 () {34 vars in 475 bytes} [Sun Dec 30 17:33:49 2018] GET /servlet?p=login&q=loginForm&jumpto=status => generated 81 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 122/200] 188.34.121.23 () {38 vars in 554 bytes} [Sun Dec 30 19:21:05 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 123/201] 88.245.183.66 () {36 vars in 528 bytes} [Sun Dec 30 20:19:55 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+W1230 20:36:28.414819 139768604694592 log.py:228] Not Found: /cache/global/img/gs.gif
+[pid: 3399|app: 0|req: 124/202] 80.82.78.50 () {36 vars in 489 bytes} [Sun Dec 30 20:36:28 2018] GET /cache/global/img/gs.gif => generated 97 bytes in 1 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 125/203] 169.53.184.28 () {34 vars in 434 bytes} [Sun Dec 30 21:34:13 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.0 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 126/204] 169.54.233.116 () {34 vars in 435 bytes} [Mon Dec 31 00:01:45 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.0 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 127/205] 18.212.234.237 () {38 vars in 558 bytes} [Mon Dec 31 01:54:49 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
+[pid: 3399|app: 0|req: 128/206] 189.79.21.222 () {36 vars in 521 bytes} [Mon Dec 31 01:56:44 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 108 bytes (1 switches on core 0)
